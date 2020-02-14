@@ -8,7 +8,7 @@ const configuration = {
   output: {
     filename: 'app.js',
     path: path.resolve(__dirname, 'docs'),
-    publicPath: '/docs/'
+    // publicPath: '/docs/'
   },
   resolve: {
     extensions: ['.js', '.jsx']
