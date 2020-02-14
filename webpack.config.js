@@ -7,7 +7,7 @@ const configuration = {
   entry: './src/index.jsx',
   output: {
     filename: 'app.js',
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'docs'),
     publicPath: '/'
   },
   resolve: {
